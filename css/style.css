@@ -1,0 +1,51 @@
+body{
+    background-color: #090912;
+
+}
+.form {
+    padding: 27px 0 27px 0;
+}
+
+.form h3{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.b_form{
+    width: 100%;
+
+
+}
+.b_form input{
+    width: 100%;
+} 
+.top{
+    margin-top: 8px;
+}
+.color_bg{    
+    background-image: linear-gradient(#4D064A, #01004C);
+    padding: 11px 22px 10px 22px;
+    border-radius: 15px;
+
+}
+label{
+    color: aliceblue;
+}
+.color_bg input{
+    background-color: #784E82;
+    color: rgba(240, 248, 255, 0.638);
+   
+}
+.color_bg input::placeholder{
+    color: rgba(240, 248, 255, 0.576);
+}
+.color_bg input:focus{
+    background-color: #784E82;
+    color: aliceblue;
+}
+.color_bg textarea{
+    background-color:#784E82;
+}
+.color_bg textarea:focus{
+    background-color:#784E82;
+}
